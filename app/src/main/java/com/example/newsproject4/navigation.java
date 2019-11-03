@@ -65,7 +65,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class navigation extends AppCompatActivity{
+public class navigation extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private AppBarConfiguration mAppBarConfiguration;
     DrawerLayout drawerLayout;
@@ -137,7 +137,10 @@ public class navigation extends AppCompatActivity{
             }
         });
     }
-//Check login to display elements
+
+
+
+    //Check login to display elements
     private void checkLogin() {
         FirebaseUser user =FirebaseAuth.getInstance().getCurrentUser();
         if (user != null) {
@@ -166,4 +169,17 @@ public class navigation extends AppCompatActivity{
                 || super.onSupportNavigateUp();
     }
 
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+        switch (menuItem.getItemId())
+        {
+            case R.id.nav_login:
+                menuItem.setChecked(true);
+                Intent i = new Intent(this,MainActivity.class);
+                startActivity(i);
+                break;
+
+        }
+        return false;
+    }
 }

@@ -105,6 +105,9 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             } else {
               //Press back
+                Intent intent = new Intent(MainActivity.this,navigation.class);
+                startActivity(intent);
+                finish();
                     //Toast.makeText(this, "Error: " + response.getError().getMessage(), Toast.LENGTH_SHORT).show();
             }
         }

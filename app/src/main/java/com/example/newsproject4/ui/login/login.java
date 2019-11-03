@@ -9,10 +9,12 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.example.newsproject4.MainActivity;
 import com.example.newsproject4.R;
 import com.example.newsproject4.navigation;
+import com.example.newsproject4.ui.home.HomeFragment;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -24,19 +26,18 @@ public class login extends Fragment {
 
         View v;
         v=inflater.inflate(R.layout.fragment_login,container,false);
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-
-        if (user != null) {
+       FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+         if (user != null) {
             Intent i = new Intent(getActivity(), navigation.class);
             i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
-            startActivity(i);
-        } else {
+          startActivity(i);
+         }
+         else {
             Intent i = new Intent(getActivity(),MainActivity.class);
             i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
             startActivity(i);
         }
         return super.onCreateView(inflater, container, savedInstanceState);
-
     }
 }
 
