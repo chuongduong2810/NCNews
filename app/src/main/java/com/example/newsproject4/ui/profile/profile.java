@@ -46,7 +46,7 @@ public class profile extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_profile,container,false);
         circleImageView=(CircleImageView) v.findViewById(R.id.profile_photo);
-        imgv_back = (ImageView) v.findViewById(R.id.back);
+        //imgv_back = (ImageView) v.findViewById(R.id.back);
         imgv_edit_gender_age = (ImageView) v.findViewById(R.id.edit_gender_age);
         imgv_edit_name = (ImageView) v.findViewById(R.id.edit_name);
         imgv_edt_city= (ImageView) v.findViewById(R.id.edit_locate);

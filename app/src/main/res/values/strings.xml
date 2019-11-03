@@ -3,15 +3,17 @@
     <string name="title_activity_navigation">navigation</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">User name</string>
-    <string name="nav_header_subtitle">Status</string>
-    <string name="nav_header_desc">User Avatar</string>
-    <string name="about">About us</string>
+    <string name="text_username">User name</string>
+    <string name="text_email">Email</string>
+    <string name="text_avt">User Avatar</string>
+    <string name="about">About Us</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_profile">Profile</string>
     <string name="menu_logout">Log out</string>
     <string name="menu_exit">Exit</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_signup">Sign Up</string>
 
     <string name="forget"><i><u>Forgot password?</u></i></string>
     <string name="sign_up"> <i><u>Sign up</u></i></string>

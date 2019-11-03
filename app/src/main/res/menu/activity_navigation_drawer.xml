@@ -5,20 +5,15 @@
 
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_profile"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_profile_black_24dp"
             android:title="@string/menu_profile" />
-
         <item
-                android:id="@+id/nav_logout"
-                android:icon="@drawable/ic_log_out_24dp"
-                android:title="@string/menu_logout" />
-        <item
-                android:id="@+id/nav_exit"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_exit" />
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login_black_24dp"
+            android:title="@string/menu_login" />
 
 </menu>

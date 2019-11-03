@@ -8,4 +8,6 @@
     <color name="colorBkgd">#343434</color>
     <color name="colorEdt">#1a1a1a</color>
     <color name="colorReg">#f5b716</color>
+    <color name="back">#ebebeb</color>
 </resources>
+

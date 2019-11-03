@@ -22,8 +22,16 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_navigation"
         app:menu="@menu/activity_navigation_drawer"
-
-        />
-
+        app:itemIconTint="@android:color/black"
+        app:itemTextColor="@android:color/black">
+        <Button
+            android:id="@+id/btn_sign_out"
+            android:text="Sign Out"
+            android:enabled="true"
+            android:layout_gravity="bottom"
+            android:background="@color/naviBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.navigation.NavigationView>
 
 </androidx.drawerlayout.widget.DrawerLayout>

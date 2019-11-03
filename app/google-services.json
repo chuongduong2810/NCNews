@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "188943393069",
+    "firebase_url": "https://projectnews-ad352.firebaseio.com",
+    "project_id": "projectnews-ad352",
+    "storage_bucket": "projectnews-ad352.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188943393069:android:0ec4d7c8d30bdfac1af3a4",
+        "android_client_info": {
+          "package_name": "com.example.admin.navigationdrawerwithswipetabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188943393069-g2ke7sfo181nvhc15tc8t9rk6d4j2i3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEZzQfS7I_F_HfIUVnofKCraCSZKwhQtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188943393069-g2ke7sfo181nvhc15tc8t9rk6d4j2i3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
